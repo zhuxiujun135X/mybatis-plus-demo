@@ -1,0 +1,12 @@
+# 配置Spring应用的数据库源
+spring:
+  datasource:
+    # 数据库连接URL，指向本地MySQL数据库的book schema，使用SSL连接，时区设置为UTC
+    url: jdbc:mysql://localhost:3306/zhuxj?useSSL=false&serverTimezone=UTC
+    # 数据库用户名
+    username: root
+    # 数据库密码
+    password: root
+    # 指定数据库驱动类
+    driver-class-name: com.mysql.jdbc.Driver
+
