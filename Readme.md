@@ -8,7 +8,7 @@
 Wrapper是MyBatis-Plus框架提供的一个**查询条件构建器**，用于构建复杂的查询条件。它可以帮助开发者更方便地构建 SQL 查询语句，而不需要手动编写 SQL。
 
 其相关类关系图如下：
-![img_3.png](img_3.png)
+![img_3.png](src/main/resources/static/img_3.png)
 
 * Wrapper ：条件构造抽象类，最顶端父类  
 * AbstractWrapper ： 用于查询条件封装，生成 sql 的 where 条件  
@@ -20,6 +20,6 @@ Wrapper是MyBatis-Plus框架提供的一个**查询条件构建器**，用于构
 其中主要使用**QueryWrapper**和**UpdateWrapper**这两个条件构造器
 
 ### wrapper函数用法
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img.png](src/main/resources/static/img.png)
+![img_1.png](src/main/resources/static/img_1.png)
+![img_2.png](src/main/resources/static/img_2.png)
